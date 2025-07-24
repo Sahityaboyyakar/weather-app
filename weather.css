@@ -1,0 +1,67 @@
+body {
+    background-image: url("weatherbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.weather {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.forms {
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.paragraph {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.div {
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fero {
+    color: black;
+}
+
+.forme {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.forme:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid blue;
+}
